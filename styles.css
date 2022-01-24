@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,300&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.showcase{
+    background: url(./images/scattered-forcefields\ pink.svg);
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap:2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+nav a{
+    color: #000;
+    padding: 1rem;
+    font-weight: 600;
+}
+nav .sign-up{
+    background: #242ad4;
+    padding: .5em 1em;
+    border-radius: 1.5em;
+}
+.logo{
+    font-weight: bolder;
+}
+.hero-section{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    gap:2rem;
+    padding: 2rem;
+    margin-right: 8rem;
+    margin-left: 6rem;
+}
+
+@media(max-width:900px) {
+  .hero-section{ 
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-right: unset;
+      margin-left: unset;
+  }
+}
+.show-case-text{
+    padding-bottom: 1rem;
+    line-height: 1.2;
+}
+.show-case-text >*+*{
+    margin-bottom: 2rem;
+}
+.txt-lg{
+    font-size: clamp(2rem, 2.5vw, 4rem); 
+}
+.txt-md{
+    font-size: 1rem;
+}
+
+.explore{
+    background: rgba(255, 193, 204,0.4);
+    padding: .5em;
+    font-size: 0.8rem;
+    border-radius: 1rem;
+    color: rgb(231, 102, 124);
+    font-weight: bolder;
+    text-align: center;
+}
+.txt-lg{
+    margin-top: 1rem;
+}
+.show-case-image-container{
+    margin-top: -10rem;
+}
+.show-img{
+    position: relative;
+    top: 2.4rem;
+    left: 1rem;
+    /* outline: 2px solid rgb(253, 251, 251);
+    shape-outside: none; */
+    float: right;
+}
+.show-case-image-container::after{
+    content: "";
+    background: rgb(243, 221, 225);
+    padding: 20rem 20rem 0 0;
+    border-radius: 50%;
+}
+
+.icon-container img{
+    height: 1.25rem;
+    width: 1.25rem;
+    position: relative;
+    top: 3px;
+}
+.icon-container-lg img{
+    height: 3rem;
+    width: 3rem;
+}
