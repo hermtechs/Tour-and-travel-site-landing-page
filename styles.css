@@ -92,8 +92,6 @@ nav{
 
 
 
-
-
 .show-case-text{
     padding-bottom: 1rem;
     line-height: 1.2;
@@ -148,4 +146,56 @@ nav{
 .icon-container-lg img{
     height: 3rem;
     width: 3rem;
+}
+.schedules-container{
+    display: flex;
+    gap: 1rem;
+    background: #fff;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 3.5em;
+    font-size: 0.8rem;
+    color: #222;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.sub-container:nth-child(1){
+    border-right: 1px solid rgb(230, 220, 220);
+    padding-right: 3rem;
+}
+.txt-bld{
+    font-weight: bold;
+}
+.fa-map-marker-alt,.fa-calendar-alt{
+    color: rgb(238, 143, 159);
+    cursor: pointer;
+}
+.schedules-container .fa-chevron-down{
+    font-size: .6rem;
+    cursor: pointer;
+}
+.txt-lgt{
+    color: #555;
+}
+.search-icon{
+    background: #242ad4;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    justify-content: end;
+    color: rgb(233, 225, 225);
+    text-align: center;
+    margin-right: -1rem;
+    cursor: pointer;
+    transition: 250ms ease-in-out;
+}
+.fa-search{
+    position: relative;
+    top: 35%;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.search-icon:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
 }
