@@ -17,8 +17,8 @@ a{
 }
 nav{
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
     grid-gap:2rem;
+    grid-template-columns: 1fr 2fr 2fr;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -37,6 +37,23 @@ nav .sign-up{
 .logo{
     font-weight: bolder;
 }
+
+
+.nav-toggle{
+    /* padding: 1rem; */
+    display: none;
+}
+/* .nav-links, .account{
+    display: none;
+} */
+.nav-toggle span{
+    height:2px;
+    width:28px;
+    background: #000;
+    margin-bottom:5px ;
+    display: block;
+}
+
 .hero-section{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -57,7 +74,26 @@ nav .sign-up{
       margin-right: unset;
       margin-left: unset;
   }
+  .show-case-image-container{
+    order: -1;
+  }
+  .nav-toggle{
+      display: block;
+  }
+  .nav-links, .account{
+      display: none;
+  }
+
+nav{
+    grid-template-columns: 1fr 2fr;
+    margin-right: 3rem;
 }
+}
+
+
+
+
+
 .show-case-text{
     padding-bottom: 1rem;
     line-height: 1.2;
@@ -70,6 +106,7 @@ nav .sign-up{
 }
 .txt-md{
     font-size: 1rem;
+    font-weight: 400;
 }
 
 .explore{
@@ -97,7 +134,7 @@ nav .sign-up{
 }
 .show-case-image-container::after{
     content: "";
-    background: rgb(243, 221, 225);
+    background: rgb(247, 186, 197);
     padding: 20rem 20rem 0 0;
     border-radius: 50%;
 }
