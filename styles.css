@@ -201,6 +201,9 @@ nav{
 }
 
 /*SERVICES*/
+.services{
+    background: rgb(247, 244, 244);
+}
 .subtitle{
     text-transform: uppercase;
     color: #242ad4;
@@ -231,9 +234,24 @@ nav{
 .service p{
     max-width: 300px;
     padding: 0.4rem;
+    font-weight: 300;
 }
 .service .intro{
     font-size: clamp(1.5rem, 2.5vw, 3rem); 
     max-width: 14rem;
     line-height: 1.3;
+}
+ .service-icon-shape{
+  border-radius:55% 45% 65% 35% / 50% 60% 40% 50% ; 
+}
+@media(min-width:900px){
+    .service3{
+        margin-bottom: 4rem;
+    }
+    .service4{
+        margin-top: 2rem;
+    }
+    .services-container{
+        text-align: unset;
+    }
 }
