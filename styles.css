@@ -64,10 +64,10 @@ nav .sign-up{
     gap:2rem;
     padding: 2rem;
     margin-right: 8rem;
-    margin-left: 6rem;
+    margin-left: 2rem;
 }
 
-@media(max-width:900px) {
+@media(max-width:895px) {
   .hero-section{ 
       grid-template-columns: 1fr;
       gap: 1rem;
@@ -161,7 +161,7 @@ nav{
 }
 .sub-container:nth-child(1){
     border-right: 1px solid rgb(230, 220, 220);
-    padding-right: 10%;
+    padding-right: 5%;
 }
 .txt-bld{
     font-weight: bold;
@@ -198,4 +198,42 @@ nav{
 .search-icon:hover{
     transform: scale(1.05);
     opacity: 0.8;
+}
+
+/*SERVICES*/
+.subtitle{
+    text-transform: uppercase;
+    color: #242ad4;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-left: 3.5rem;
+}
+.service-icon{
+    max-width: 3.8rem;
+}
+.service-icon-container{
+    margin-left: 2.5rem;
+}
+.services-container{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    padding: 1rem;
+}
+.services-container >*+*{
+    max-width:20rem;
+    min-width:12rem;
+}
+.service p{
+    max-width: 300px;
+    padding: 0.4rem;
+}
+.service .intro{
+    font-size: clamp(1.5rem, 2.5vw, 3rem); 
+    max-width: 14rem;
+    line-height: 1.3;
 }
