@@ -233,7 +233,7 @@ nav{
     min-width:12rem;
 }
 .service p{
-    max-width: 300px;
+    max-width: 18.75rem;
     padding: 0.4rem;
     font-weight: 300;
 }
@@ -256,6 +256,7 @@ nav{
 }
 .services-container .service1 h1{
     text-align: center;
+    margin-left: 2rem;
 }
 @media(min-width:600px){
     .services-container{
@@ -263,5 +264,6 @@ nav{
     }
     .services-container .service1 h1{
         text-align: unset;
+        margin-left: 0.5rem;
     }
 }
