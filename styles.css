@@ -175,7 +175,7 @@ nav{
     font-size: .6rem;
     cursor: pointer;
 }
-.txt-lgt{
+.txt-lg{
     color: #555;
 }
 .search-icon{
@@ -236,7 +236,8 @@ nav{
 .service p{
     max-width: 18.75rem;
     padding: 0.4rem;
-    font-weight: 300;
+    font-weight: 400;
+    color: #333;
 }
 .service .intro{
     font-size: clamp(1.8rem, 2.5vw, 3rem); 
@@ -257,8 +258,9 @@ nav{
 }
 .services-container .service1 h1{
     text-align: center;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
+
 @media(min-width:600px){
     .services-container{
         text-align: unset;
@@ -270,6 +272,7 @@ nav{
     .destinations-header .scroll-btns{
         margin-right: 5rem;
     }
+
 }
 .txt-colored{
     color:#242ad4;
@@ -318,8 +321,31 @@ nav{
     padding:1.4rem;
 }
 .place img{
-    min-width: 250px;
-    height: 250px;
+    min-width: 15.625rem;
+    height: 15.625rem;
     border-radius: 1.2em;
     object-fit: cover;
+}
+.place-description{
+    font-weight: 600;
+    color: #222;
+}
+.place-name{
+font-weight: 600;
+color:#777;
+font-size:0.8rem;
+}
+.rating{
+    font-size: 0.9rem;
+    padding: 0.8rem 0.8rem 0rem 0rem;
+    color: #777;
+}
+.rating span{
+    background: rgba(187, 198, 235, 0.4);
+    padding: 0.01em 0.2em;
+    letter-spacing: 1px;
+    border-radius: 0.8em;
+    font-size: 0.8rem;
+    color: rgb(26, 23, 202);
+    /* font-weight: 700; */
 }
