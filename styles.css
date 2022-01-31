@@ -389,8 +389,8 @@ padding-top: 1rem;
 .our-experience .show-case-image-container{
     /* margin-top: -15rem; */
 }
-.show-img{
-    margin-top: -10rem;
+
+.our-experience .show-img{
     position: relative;
     top: 1.4rem;
     left: 1rem;
@@ -401,6 +401,6 @@ padding-top: 1rem;
 .our-experience .show-case-image-container::after{
     content: "";
     background: rgb(247, 186, 197);
-    padding: 18rem 18rem 0 0rem;
+    padding: 0rem 20rem 0 0rem;
     border-radius: 50%;
 }
