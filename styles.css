@@ -33,6 +33,7 @@ nav .sign-up{
     background: #242ad4;
     padding: .5em 1em;
     border-radius: 1.5em;
+    color: #eee;
 }
 .logo{
     font-weight: bolder;
@@ -88,6 +89,9 @@ nav{
     grid-template-columns: 1fr 2fr;
     margin-right: 3rem;
 }
+.our-experience .show-case-text{
+    text-align: left;
+}
 }
 
 
@@ -100,7 +104,7 @@ nav{
     margin-bottom: 2rem;
 }
 .txt-lg{
-    font-size: clamp(2rem, 2.5vw, 4rem); 
+    font-size: clamp(2.2rem, 2.5vw, 4rem); 
 }
 .txt-md{
     font-size: 1rem;
@@ -212,6 +216,7 @@ nav{
     font-size: 1rem;
     padding: 1rem;
     margin-left: 3.5rem;
+    text-align: center;
 }
 .service-icon{
     max-width: 3.8rem;
@@ -271,7 +276,11 @@ nav{
     }
     .destinations-header .scroll-btns{
         margin-right: 5rem;
+    }.subtitle{
+        text-align: unset;
     }
+
+
 
 }
 .txt-colored{
@@ -291,6 +300,10 @@ nav{
     border-radius: 50%;
     margin-right: 0.5rem;
 }
+.scroll-left{
+    background: #ddd;
+    color: #000;
+}
 .fa-chevron-right,
 .fa-chevron-left{
     position: relative;
@@ -304,10 +317,12 @@ nav{
   align-items: center;
 }
 .destinations-header h1{
-    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+    font-size: clamp(1.1rem, 2.5vw, 2.5rem);
     letter-spacing: unset;
     margin-left: 3rem;
-    text-transform: unset;
+    /* text-transform: uppercase */
+    font-style: italic;
+    line-height: 1;
 }
 
 .places{
@@ -315,7 +330,6 @@ nav{
     overflow: hidden;
     flex-wrap: nowrap;
     margin-left: 1rem;
-    /* flex-direction:row; */
 }
 .place{
     padding:1.4rem;
@@ -348,4 +362,44 @@ font-size:0.8rem;
     font-size: 0.8rem;
     color: rgb(26, 23, 202);
     /* font-weight: 700; */
+}
+/* OUR EXPERIENCE */
+.our-experience{
+    background: #fdf7f7;
+    border-radius: 2em;
+    margin:4rem 0rem auto;
+}
+.our-experience .show-case-text{
+    text-align: center;
+    margin-right: 1rem;
+}
+@media(min-width:900px){
+    .our-experience .show-case-text{
+        text-align: left;
+        margin-top: -5rem;
+    }
+}
+.our-experience-title{
+text-transform: uppercase;
+letter-spacing: 1px;
+color: #242ad4;
+padding-top: 1rem;
+}
+
+.our-experience .show-case-image-container{
+    margin-top: -20.2rem;
+}
+.show-img{
+    position: relative;
+    top: 1.4rem;
+    left: 1rem;
+    /* outline: 2px solid rgb(253, 251, 251);
+    shape-outside: none; */
+    float: right;
+}
+.our-experience .show-case-image-container::after{
+    content: "";
+    background: rgb(247, 186, 197);
+    padding: 20rem 20rem 0 0rem;
+    border-radius: 50%;
 }
