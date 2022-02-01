@@ -401,9 +401,9 @@ padding-top: 1rem;
     padding: 16em 16em 0 0rem;
     border-radius: 50%;
 }
-@media (max-width:450px){
+@media (max-width:500px){
     .our-experience .show-case-image-container{
-        margin-top: -10rem;
+        margin-top: -18rem;
     }
     .our-experience .show-case-image-container::after{
         content: "";
