@@ -403,7 +403,7 @@ padding-top: 1rem;
 }
 @media (max-width:500px){
     .our-experience .show-case-image-container{
-        margin-top: -18rem;
+        margin-top: -14rem;
     }
     .our-experience .show-case-image-container::after{
         content: "";
