@@ -64,7 +64,7 @@ nav .sign-up{
     text-align: center;
     gap:2rem;
     padding: 2rem;
-    margin-right: 8rem;
+    /* margin-right: 8rem; */
     margin-left: 2rem;
 }
 
@@ -376,7 +376,7 @@ font-size:0.8rem;
 @media(min-width:900px){
     .our-experience .show-case-text{
         text-align: left;
-        margin-top: -5rem;
+        /* margin-top: -5rem; */
     }
 }
 .our-experience-title{
@@ -387,20 +387,17 @@ padding-top: 1rem;
 }
 
 .our-experience .show-case-image-container{
-    /* margin-top: -15rem; */
+    margin-top: -20rem;
 }
 
 .our-experience .show-img{
     position: relative;
     top: 1.4rem;
     left: 1rem;
-    /* outline: 2px solid rgb(253, 251, 251);
-    shape-outside: none; */
-    float: right;
 }
 .our-experience .show-case-image-container::after{
     content: "";
     background: rgb(247, 186, 197);
-    padding: 20rem 20rem 0 0rem;
+    padding: 15rem 15rem 0 0rem;
     border-radius: 50%;
 }
