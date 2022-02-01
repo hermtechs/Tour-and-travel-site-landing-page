@@ -401,7 +401,7 @@ padding-top: 1rem;
     padding: 16em 16em 0 0rem;
     border-radius: 50%;
 }
-@media (max-width:500px){
+@media (max-width:490px){
     .our-experience .show-case-image-container{
         margin-top: -14.5rem;
     }
@@ -414,4 +414,21 @@ padding-top: 1rem;
     .our-experience{
         margin:2rem 0rem auto;
     }
+}
+.our-experience .show-case-text3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    justify-items: center;
+}
+.txt-stats{
+    max-width:8rem;
+}
+.txt-stats h1{
+    color: #242ad4;
+}
+/* all show-case-text paragraphs */
+.show-case-text p{
+    color: #777;
+    font-weight: 500;
 }
