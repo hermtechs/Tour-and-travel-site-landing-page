@@ -393,11 +393,11 @@ padding-top: 1rem;
 .our-experience .show-img{
     position: relative;
     top: 1.4rem;
-    left: 1rem;
+    left: 1.3rem;
 }
 .our-experience .show-case-image-container::after{
     content: "";
     background: rgb(247, 186, 197);
-    padding: 15rem 15rem 0 0rem;
+    padding: 15em 15em 0 0rem;
     border-radius: 50%;
 }
