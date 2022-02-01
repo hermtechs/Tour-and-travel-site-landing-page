@@ -373,6 +373,9 @@ font-size:0.8rem;
     text-align: center;
     margin-right: 1rem;
 }
+.our-experience .show-case-text p{
+    text-align: left;
+}
 @media(min-width:900px){
     .our-experience .show-case-text{
         text-align: left;
@@ -420,6 +423,8 @@ padding-top: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: left;
     justify-items: center;
+    align-items: center;
+    gap: 1rem;
 }
 .txt-stats{
     max-width:8rem;
@@ -427,6 +432,7 @@ padding-top: 1rem;
 .txt-stats h1{
     color: #242ad4;
 }
+
 /* all show-case-text paragraphs */
 .show-case-text p{
     color: #777;
