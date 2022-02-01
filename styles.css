@@ -370,8 +370,8 @@ font-size:0.8rem;
     margin:4rem 0rem auto;
 }
 .our-experience .show-case-text{
-    width: 100%;
-    margin-left: 10%;
+    max-width: 100%;
+    margin-left: 8%;
     text-align: center;
 }
 /* .our-experience .show-case-text p{
@@ -379,7 +379,6 @@ font-size:0.8rem;
 } */
 @media(min-width:900px){
     .our-experience .show-case-text{
-        width: 100%;
         margin-left: unset;
         text-align: left;
     }
