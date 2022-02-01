@@ -401,3 +401,14 @@ padding-top: 1rem;
     padding: 15em 15em 0 0rem;
     border-radius: 50%;
 }
+@media (max-width:450px){
+    .our-experience .show-case-image-container{
+        margin-top: -10rem;
+    }
+    .our-experience .show-case-image-container::after{
+        content: "";
+        background: rgb(247, 186, 197);
+        padding: 12em 12em 0 0rem;
+        border-radius: 50%;
+    }
+}
