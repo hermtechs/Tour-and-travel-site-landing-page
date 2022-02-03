@@ -427,7 +427,7 @@ padding-top: 1rem;
     bottom: 0.01rem;
     right:25.6%
 }
-@media (max-width:490px){
+@media (max-width:500px){
     .our-experience .show-case-image-container{
         margin-top: -14.8rem;
     }
@@ -441,7 +441,7 @@ padding-top: 1rem;
         margin:2rem 0rem auto;
     }
     .verified-txt{
-        right: 29%;
+        right: 20%;
     }
   
 }
