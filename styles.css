@@ -430,7 +430,7 @@ padding-top: 1rem;
 .rating-emojis{
     position: relative;
     background:#fff;
-    padding:0.4rem 2rem 1rem 1rem;
+    padding:1.2rem 2rem 1.5rem 1rem;
     width: 12em;
     border-radius: .8em;
     left: 10rem;
@@ -442,12 +442,12 @@ padding-top: 1rem;
     max-width: 1.8rem;
     max-height: 1.8rem;
     cursor: pointer;
-    padding-right: 0.1rem;
+    padding-right: 0.4rem;
 }
 .rating-emojis p{
     font-weight: bold;
 }
-@media (max-width:500px){
+@media (max-width:490px){
     .our-experience .show-case-image-container{
         margin-top: -14.8rem;
     }
