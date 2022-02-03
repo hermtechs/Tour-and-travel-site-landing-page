@@ -394,7 +394,7 @@ padding-top: 1rem;
 }
 
 .our-experience .show-case-image-container{
-    margin-top: -20rem;
+    margin-top: -21rem;
 }
 
 .our-experience .show-img{
@@ -408,9 +408,28 @@ padding-top: 1rem;
     padding: 16em 16em 0 0rem;
     border-radius: 50%;
 }
+.show-case-main{
+    position: relative;
+}
+
+.badge-verified{
+    background: #fff;
+    position: absolute;
+    border-radius: .8em;
+    width: 180px;
+    height: 170px;
+    top: 11rem;
+    left: 0.98rem;
+}
+.verified-txt{
+    position: relative;
+    right: 5.9rem;
+    bottom: 0.01rem;
+
+}
 @media (max-width:490px){
     .our-experience .show-case-image-container{
-        margin-top: -14.5rem;
+        margin-top: -14.7rem;
     }
     .our-experience .show-case-image-container::after{
         content: "";
