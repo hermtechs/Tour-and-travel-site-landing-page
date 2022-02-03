@@ -454,7 +454,7 @@ padding-top: 1rem;
     .our-experience .show-case-image-container::after{
         content: "";
         background: rgb(247, 186, 197);
-        padding: 14em 14em 0 0rem;
+        padding: 16em 16em 0 0rem;
         border-radius: 50%;
     }
     .our-experience{
