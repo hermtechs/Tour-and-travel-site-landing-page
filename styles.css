@@ -416,16 +416,16 @@ padding-top: 1rem;
     background: #fff;
     position: absolute;
     border-radius: .8em;
-    width: 180px;
+    width: 100px;
     height: 170px;
     top: 11rem;
-    left: 0.98rem;
+    left: 2.6rem;
+
 }
 .verified-txt{
     position: relative;
-    right: 5.9rem;
+    right: 26.5%;
     bottom: 0.01rem;
-
 }
 @media (max-width:490px){
     .our-experience .show-case-image-container{
