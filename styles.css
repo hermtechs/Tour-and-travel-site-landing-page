@@ -427,7 +427,7 @@ padding-top: 1rem;
     bottom: 0.01rem;
     right:25.6%
 }
-@media (max-width:500px){
+@media (max-width:480px){
     .our-experience .show-case-image-container{
         margin-top: -14.8rem;
     }
@@ -442,6 +442,9 @@ padding-top: 1rem;
     }
     .verified-txt{
         right: 21.8%;
+    }
+    .badge-verified{
+        left:2.2rem
     }
   
 }
