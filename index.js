@@ -7,8 +7,9 @@ scrollRightBtn.addEventListener('click', scrollRight);
 scrollLeftBtn.addEventListener('click',scrollLeft)
 const elementSize = destinations[0].clientWidth
 console.log(elementSize)
-// setInterval(scrollRight,3000)
 
+
+//FINDING TOTAL WIDTH COVERED BY PLACE ELEMENTS 
 var totalClientWidth = 0
 const totalElementsClientWidth = destinations.forEach((destination)=>{
 totalClientWidth = totalClientWidth + destination.clientWidth;
@@ -35,8 +36,8 @@ function scrollRight(){
      destinationContainer.scrollLeft-=elementSize;
   }
 
-//auto scrolling
-const autoScroll = ()=>{
-    setInterval(scrollRight,3000)
+//auto scrolling every 3 secons
+const autoScroll = (t)=>{
+    setInterval(scrollRight,t)
 }
-autoScroll();
+// autoScroll(2500);

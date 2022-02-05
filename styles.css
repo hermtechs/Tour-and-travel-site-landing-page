@@ -333,6 +333,19 @@ nav{
 }
 .place{
     padding:1.4rem;
+    position: relative;
+}
+.price{
+    position: absolute;
+    right: 2.1rem;
+    top: 2rem;
+    background-color: #fff;
+    padding: 0.2em 0.6em;
+    border-radius: 1em;
+    color: #242ad4;
+}
+.price:hover{
+    opacity: .5;
 }
 .place img{
     min-width: 15.625rem;
@@ -443,6 +456,10 @@ padding-top: 1rem;
     max-height: 1.8rem;
     cursor: pointer;
     padding-right: 0.4rem;
+    transition: 200ms ease-in-out;
+}
+.rating-emojis img:hover{
+    transform:scale(1.5)
 }
 .rating-emojis p{
     font-weight: bold;
