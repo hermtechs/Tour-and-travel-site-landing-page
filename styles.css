@@ -9,6 +9,9 @@
 img{
     max-width: 100%;
 }
+::selection{
+    color: #242ad4;
+}
 a{
     text-decoration: none;
 }
