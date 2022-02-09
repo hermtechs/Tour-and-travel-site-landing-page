@@ -457,6 +457,7 @@ padding-top: 1rem;
     max-height: 1.8rem;
     cursor: pointer;
     padding-right: 0.4rem;
+    user-select: none;
     transition: 200ms ease-in-out;
 }
 .rating-emojis img:hover{
