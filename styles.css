@@ -533,7 +533,7 @@ padding-top: 1rem;
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    max-width: 310px;
+    max-width: 315px;
     height: 500px;
     background: #fff;
     padding: 2.2rem;
@@ -553,6 +553,11 @@ padding-top: 1rem;
   }
   .swiper-slide .rating-stars{
       color: #383cb1;
+      padding: 1rem 0;
+     
+  }
+  .swiper-slide .rating-stars>*{
+      margin-right: 0.2rem;
   }
   .swiper-slide .person-img {
       /* background: #ffcece;
