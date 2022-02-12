@@ -386,7 +386,7 @@ font-size:0.8rem;
 /* OUR EXPERIENCE */
 .our-experience{
     background: #fdf7f7;
-    border-radius: 2em;
+    border-radius: 2em 2em 0 0;
     margin:4rem 0rem auto;
 }
 .our-experience .show-case-text{
@@ -425,7 +425,7 @@ padding-top: 1rem;
 .our-experience .show-case-image-container::after{
     content: "";
     background: rgb(247, 186, 197);
-    padding: 16em 16em 0 0rem;
+    padding: 16em 16em 0em 0em;
     border-radius: 50%;
 }
 .show-case-main{
@@ -533,7 +533,7 @@ padding-top: 1rem;
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    max-width: 320px;
+    max-width: 310px;
     height: 500px;
     background: #fff;
     padding: 2.2rem;
