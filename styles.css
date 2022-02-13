@@ -114,7 +114,7 @@ nav{
     font-size: clamp(2.5rem, 2.5vw, 4rem); 
 }
 .txt-md{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
 }
 
@@ -549,7 +549,8 @@ padding-top: 1rem;
   .swiper-slide p{
     color: #000;
     padding-bottom: 1rem;
-    line-height: 1.5;
+    line-height: 1.6;
+    font-size: 1.1rem;
   }
   .swiper-slide .rating-stars{
       color: #383cb1;
@@ -578,4 +579,43 @@ padding-top: 1rem;
   .swiper-slide img {
     display: block;
     max-width: 25rem;
+  }
+
+  /*GET STARTED SECTION*/
+  .get-started{
+      text-align: center;
+      font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+      background: #eee;
+      margin-bottom: 0rem;  
+      line-height: 1.4;
+  }
+  .get-started-content{
+      background:#f3e2e2;
+      /* margin: 2rem; */
+      padding: 5rem;
+      max-width: 80%;
+      margin: auto;
+      border-radius: 1.4rem;
+  }
+  .get-started-content p{
+      margin-bottom: 1.4rem;
+      margin-top: 1.4rem;
+      color: #444;
+  }
+  .get-started-btn{
+      color: #fff;
+      background: #383cb1;
+      border-radius: 1.8em;
+      padding: 1rem 1.5rem;
+      font-size: 1rem;
+      margin-top: 1rem;
+      cursor: pointer;
+      transition: 250ms ease-in-out;
+  }
+  .get-started-btn:hover{
+      opacity: 0.8;
+  }
+ .earth-icon{
+      width: 1.5rem;  
+      height: 1.5rem;
   }
