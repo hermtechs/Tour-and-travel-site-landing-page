@@ -111,7 +111,7 @@ nav{
     margin-bottom: 2rem;
 }
 .txt-lg{
-    font-size: clamp(2.5rem, 1.5vw, 4rem); 
+    font-size: clamp(2.5rem, 2.5vw, 4rem); 
 }
 .txt-md{
     font-size: 1.2rem;
@@ -123,7 +123,7 @@ nav{
     padding: .5em;
     font-size: 0.8rem;
     border-radius: 1rem;
-    color: rgba(231, 102, 124, 0.9);
+    color: rgb(231, 102, 124);
     font-weight: bolder;
     text-align: center;
 }
