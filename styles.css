@@ -489,8 +489,8 @@ padding-top: 1rem;
     .verified-txt{
         right: 21.8%;
     }
-  
 }
+
 .our-experience .show-case-text3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -583,6 +583,7 @@ padding-top: 1rem;
 
   /*GET STARTED SECTION*/
   .get-started{
+      padding: 2rem;
       text-align: center;
       font-size: clamp(1.4rem, 2.5vw, 1.8rem);
       background: #eee;
@@ -590,9 +591,8 @@ padding-top: 1rem;
       line-height: 1.4;
   }
   .get-started-content{
-      background:#f3e2e2;
-      /* margin: 2rem; */
-      padding: 2rem;
+      background:rgba(255, 192, 203, 0.5);
+      padding: 4rem 2rem 4rem 2rem;
       max-width: 80%;
       margin: auto;
       border-radius: 1.4rem;
@@ -618,4 +618,37 @@ padding-top: 1rem;
  .earth-icon{
       width: 1.5rem;  
       height: 1.5rem;
+  }
+
+  /* FOOTER */
+  footer{
+    background: #eee;
+  }
+  .footer{
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+      /* justify-items: center; */
+      max-width: 85%;
+      margin: auto;
+      padding: 2rem 2rem;
+      color: #777;
+      font-weight: 500;
+  }
+  .footer h3{
+      color: #000;
+  }
+  .footer ul li{
+      list-style: none;
+  }
+  .footer ul li a{
+      color: #777;
+      font-weight: 500;
+  }
+  @media(max-width:600px){
+    .footer{
+        grid-template-columns: 1fr 1fr;
+    }
   }
