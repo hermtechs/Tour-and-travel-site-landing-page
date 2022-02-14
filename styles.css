@@ -111,7 +111,7 @@ nav{
     margin-bottom: 2rem;
 }
 .txt-lg{
-    font-size: clamp(2.5rem, 2.5vw, 4rem); 
+    font-size: clamp(2.5rem, 1.5vw, 4rem); 
 }
 .txt-md{
     font-size: 1.2rem;
@@ -123,7 +123,7 @@ nav{
     padding: .5em;
     font-size: 0.8rem;
     border-radius: 1rem;
-    color: rgb(231, 102, 124);
+    color: rgba(231, 102, 124, 0.9);
     font-weight: bolder;
     text-align: center;
 }
@@ -144,7 +144,7 @@ nav{
 }
 .show-case-image-container::after{
     content: "";
-    background: rgb(247, 186, 197);
+    background: #f1c5c5;
     padding: 20rem 20rem 0 0;
     border-radius: 50%;
 }
@@ -311,6 +311,10 @@ nav{
     background: #ddd;
     color: #000;
 }
+.scroll-btn:hover{
+    transform: scale(1.05);
+}
+
 .fa-chevron-right,
 .fa-chevron-left{
     position: relative;
@@ -380,7 +384,7 @@ font-size:0.8rem;
     letter-spacing: 1px;
     border-radius: 0.8em;
     font-size: 0.8rem;
-    color: rgb(26, 23, 202);
+    color: #383cb1;
     /* font-weight: 700; */
 }
 /* OUR EXPERIENCE */
@@ -424,7 +428,7 @@ padding-top: 1rem;
 }
 .our-experience .show-case-image-container::after{
     content: "";
-    background: rgb(247, 186, 197);
+    background: #f1c5c5;
     padding: 16em 16em 0em 0em;
     border-radius: 50%;
 }
@@ -453,7 +457,7 @@ padding-top: 1rem;
     padding:1.2rem 2rem 1.5rem 1rem;
     width: 12em;
     border-radius: .8em;
-    left: 10rem;
+    left: 9.5rem;
     bottom: 2.5rem;
     box-shadow: 0 4px 18px rgb(0 0 0 / 0.2);
     user-select: none;
@@ -479,7 +483,7 @@ padding-top: 1rem;
     }
     .our-experience .show-case-image-container::after{
         content: "";
-        background: rgb(247, 186, 197);
+        background: #f3e2e2;
         padding: 20em 20em 0 0rem;
         border-radius: 50%;
     }
