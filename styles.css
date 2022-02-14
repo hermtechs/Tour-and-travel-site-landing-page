@@ -592,7 +592,7 @@ padding-top: 1rem;
   .get-started-content{
       background:#f3e2e2;
       /* margin: 2rem; */
-      padding: 5rem;
+      padding: 2rem;
       max-width: 80%;
       margin: auto;
       border-radius: 1.4rem;
@@ -610,7 +610,7 @@ padding-top: 1rem;
       font-size: 1rem;
       margin-top: 1rem;
       cursor: pointer;
-      transition: 250ms ease-in-out;
+      transition: 200ms ease-in-out;
   }
   .get-started-btn:hover{
       opacity: 0.8;
