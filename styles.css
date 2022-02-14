@@ -111,7 +111,7 @@ nav{
     margin-bottom: 2rem;
 }
 .txt-lg{
-    font-size: clamp(2.5rem, 2.5vw, 4rem); 
+    font-size: clamp(2.5rem, 1.5vw, 3rem); 
 }
 .txt-md{
     font-size: 1.2rem;
