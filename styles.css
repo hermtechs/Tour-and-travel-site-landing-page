@@ -480,7 +480,7 @@ padding-top: 1rem;
     .our-experience .show-case-image-container::after{
         content: "";
         background: rgb(247, 186, 197);
-        padding: 20em 20em 0 0rem;
+        padding: 20em 20em 0rem 0rem;
         border-radius: 50%;
     }
     .our-experience{
@@ -628,9 +628,6 @@ padding-top: 1rem;
       display: grid;
       grid-template-columns: repeat(5,1fr);
       gap: 1rem;
-      justify-content: center;
-      align-items: center;
-      /* justify-items: center; */
       max-width: 85%;
       margin: auto;
       padding: 2rem 2rem;
