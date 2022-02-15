@@ -695,4 +695,7 @@ padding-top: 1rem;
     .footer-marketing-txt{
         max-width: 15rem;
     }
+    .email-box .fa-chevron-right{
+        left: 15rem;
+    }
   }
