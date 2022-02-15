@@ -44,6 +44,8 @@ nav .sign-up{
 }
 .logo{
     font-weight: bolder;
+    color: #1419af;
+    user-select: none;
 }
 
 
@@ -644,8 +646,52 @@ padding-top: 1rem;
       color: #777;
       font-weight: 500;
   }
+.social-media-icons a i{
+    color: #383cb1;
+    padding: 0.5rem 0.5rem;
+    transition: 200ms ease-in-out;
+}
+.social-media-icons a i:hover{
+    transform: scale(1.15);
+}
+.social-media-icons a .fa-facebook-f{
+    background: #383cb1;
+    color: #fff;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+}
+.email-box{
+    position: relative;
+}
+.email-box input{
+    position: relative;
+    outline: #1419af;
+    padding: 0.5em 1em;
+}
+.email-box .fa-chevron-right{
+    position: absolute;
+    top: 0.42px;
+    left: 12.5rem;
+    color: #fff;
+    background: #1419af;
+    padding: 0.68em 1.5em;
+    border-radius: 0px 6px 6px 0px;
+}
+
   @media(max-width:600px){
     .footer{
         grid-template-columns: 1fr 1fr;
+        padding: 2rem 2rem;
+    }
+  }
+  @media(max-width:500px){
+    .footer{
+        grid-template-columns:1fr;
+        align-items: center;
+    }
+    .footer-marketing-txt{
+        max-width: 15rem;
     }
   }
