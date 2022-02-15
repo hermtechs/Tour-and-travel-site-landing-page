@@ -669,11 +669,10 @@ padding-top: 1rem;
 .email-box input{
     position: relative;
     outline: #1419af;
-    padding: 0.5rem 0rem 0.5rem 0.1rem; 
+    padding: 0.5rem 0rem 0.5rem 0.1rem;
 }
 .email-box .fa-chevron-right{
     position: absolute;
-    /* top: 0.42px; */
     left: 11rem;
     color: #fff;
     background: #1419af;
@@ -685,6 +684,9 @@ padding-top: 1rem;
     .footer{
         grid-template-columns: 1fr 1fr;
         padding: 2rem 2rem;
+    }
+    .enail-box input{
+        max-width: 8rem;
     }
   }
   @media(max-width:500px){
