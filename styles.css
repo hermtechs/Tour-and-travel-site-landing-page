@@ -664,19 +664,20 @@ padding-top: 1rem;
 }
 .email-box{
     position: relative;
+    padding-top: 0.5rem;
 }
 .email-box input{
     position: relative;
     outline: #1419af;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0rem 0.5rem 0.1rem; 
 }
 .email-box .fa-chevron-right{
     position: absolute;
-    top: 0.42px;
-    left: 12.5rem;
+    /* top: 0.42px; */
+    left: 11rem;
     color: #fff;
     background: #1419af;
-    padding: 0.68rem 1.5rem;
+    padding: 0.69rem 1.5rem;
     border-radius: 0px 6px 6px 0px;
 }
 
