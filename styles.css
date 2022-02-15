@@ -685,9 +685,6 @@ padding-top: 1rem;
         grid-template-columns: 1fr 1fr;
         padding: 2rem 2rem;
     }
-    .enail-box input{
-        max-width: 8rem;
-    }
   }
   @media(max-width:500px){
     .footer{
@@ -699,5 +696,8 @@ padding-top: 1rem;
     }
     .email-box .fa-chevron-right{
         left: 15rem;
+    }
+    .enail-box input{
+        max-width: 70%;
     }
   }
