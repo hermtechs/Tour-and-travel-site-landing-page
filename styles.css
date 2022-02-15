@@ -668,7 +668,7 @@ padding-top: 1rem;
 .email-box input{
     position: relative;
     outline: #1419af;
-    padding: 0.5em 1em;
+    padding: 0.5rem 1rem;
 }
 .email-box .fa-chevron-right{
     position: absolute;
@@ -676,7 +676,7 @@ padding-top: 1rem;
     left: 12.5rem;
     color: #fff;
     background: #1419af;
-    padding: 0.68em 1.5em;
+    padding: 0.68rem 1.5rem;
     border-radius: 0px 6px 6px 0px;
 }
 
