@@ -628,9 +628,9 @@ padding-top: 1rem;
       display: grid;
       grid-template-columns: repeat(5,1fr);
       gap: 1rem;
-      max-width: 85%;
+      max-width: 95%;
       margin: auto;
-      padding: 2rem 2rem;
+      padding: 2rem 1rem;
       color: #777;
       font-weight: 500;
   }
