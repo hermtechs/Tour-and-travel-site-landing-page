@@ -6,10 +6,9 @@
     padding: 0;
     font-family: "Poppins", sans-serif;;
 }
-/* body{
+body{
     position: relative;
-    height: 100%;
-} */
+}
 img{
     max-width: 100%;
 }
@@ -21,6 +20,7 @@ a{
 }
 .showcase{
     background: url(./images/scattered-forcefields\ pink.svg);
+    /* position: relative; */
 }
 nav{
     display: grid;
@@ -29,12 +29,14 @@ nav{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 1rem;
+    padding: 0.2rem 0.5rem;
 }
 nav a{
     color: #000;
     padding: 1rem;
     font-weight: 600;
+    position: relative;
+    top: 0.3rem;
 }
 nav .sign-up{
     background: #242ad4;
@@ -46,24 +48,54 @@ nav .sign-up{
     font-weight: bolder;
     color: #1419af;
     user-select: none;
+    cursor: pointer;
 }
-
-
+.header-top{
+    position: sticky;
+    top: -10px;
+    margin-top: -20px;
+    background: rgba(4, 4, 20, 0.05);
+    z-index: 1000;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
 .nav-toggle{
-    /* padding: 1rem; */
     display: none;
+    position: relative;
+    top: 0.5rem;
+    left:15px
 }
-/* .nav-links, .account{
-    display: none;
-} */
+
 .nav-toggle span{
     height:2px;
     width:28px;
-    background: #000;
+    background: #070a5c;
     margin-bottom:5px ;
     display: block;
 }
 
+/* the hamburger-open class is manipulated with js */
+.hamburger-open{
+    cursor: pointer;
+    position: relative;
+    z-index: 10000;
+  }
+  .hamburger-open span:nth-of-type(1){
+      display: none;
+  }
+  .hamburger-open span:nth-of-type(2){
+    transition: 250ms;
+    transform: rotate(-50deg);
+  }
+  .hamburger-open span:nth-of-type(3){
+    position: relative;
+    transition: 250ms;
+    transform: rotate(50deg);
+    bottom: 0.436rem;
+  }
+
+
+
+/******HERO-SECTION*****/
 .hero-section{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -134,7 +166,7 @@ nav{
     line-height: 1.5;
 }
 .show-case-image-container{
-    margin-top: -10rem;
+    margin-top: -8rem;
 }
 .show-img{
     position: relative;
@@ -701,3 +733,4 @@ padding-top: 1rem;
         max-width: 70%;
     }
   }
+
