@@ -62,7 +62,8 @@ nav .sign-up{
     display: none;
     position: relative;
     top: 0.5rem;
-    left:15px
+    left:15px;
+    cursor: pointer;
 }
 
 .nav-toggle span{
@@ -72,24 +73,48 @@ nav .sign-up{
     margin-bottom:5px ;
     display: block;
 }
+.nav-links-small-screen{
+    position: fixed;
+    z-index: 900;
+    top: 3.2rem;
+    bottom: 0;
+    right: 0;
+    left:0;
+    height: 100%;
+    background: #000;
+    opacity: 0.8;
+    display: none; /*to be changed to display flex on small screens*/
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-around;
+    transition: 250ms ease-in;
+    transform: translateX(-100%);
+}
+.nav-links-small-screen a{
+    color: #fff;
+}
+.nav-links-small-screen a:hover{
+    color: blue;
+    transition: 250ms ease-in;
+}
+
 
 /* the hamburger-open class is manipulated with js */
 .hamburger-open{
-    cursor: pointer;
     position: relative;
-    z-index: 10000;
   }
   .hamburger-open span:nth-of-type(1){
       display: none;
   }
   .hamburger-open span:nth-of-type(2){
     transition: 250ms;
-    transform: rotate(-50deg);
+    transform: rotate(-40deg);
   }
   .hamburger-open span:nth-of-type(3){
     position: relative;
     transition: 250ms;
-    transform: rotate(50deg);
+    transform: rotate(40deg);
     bottom: 0.436rem;
   }
 
@@ -133,8 +158,10 @@ nav{
 .our-experience .show-case-text{
     text-align: left;
 }
+.nav-links-small-screen{
+    display: flex;
+  }
 }
-
 
 
 .show-case-text{
@@ -320,8 +347,6 @@ nav{
     }.subtitle{
         text-align: unset;
     }
-
-
 
 }
 .txt-colored{
