@@ -38,6 +38,22 @@ nav a{
     position: relative;
     top: 0.3rem;
 }
+.nav-links a:before{
+    content: "";
+    display: inline-block;
+    height: 3px;
+    width: 2.2rem;
+    background: #7a7eec;
+    position: relative;
+    top: 0.5rem;
+    left: 2rem;
+    transition: 200ms ease-in-out;
+    transform: scale(0);
+}
+.nav-links a:hover:before{
+    transform: scale(1);
+}
+
 nav .sign-up{
     background: #242ad4;
     padding: .5em 1em;
@@ -53,10 +69,16 @@ nav .sign-up{
 .header-top{
     position: fixed;
     width: 100%;
-    margin-top: -20px;
+    margin-top: -15px;
     background: rgba(4, 4, 20, 0.15);
     z-index: 1000;
     border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+@media(min-width:890px) {
+    .header-top{
+        position: sticky;
+        top:1px;
+    }
 }
 .nav-toggle{
     display: none;
