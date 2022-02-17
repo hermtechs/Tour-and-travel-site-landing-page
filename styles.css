@@ -29,7 +29,7 @@ nav{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0.2rem 0.5rem;
+    padding: 0.35rem 0.5rem;
 }
 nav a{
     color: #000;
@@ -51,10 +51,10 @@ nav .sign-up{
     cursor: pointer;
 }
 .header-top{
-    position: sticky;
-    top: -10px;
+    position: fixed;
+    width: 100%;
     margin-top: -20px;
-    background: rgba(4, 4, 20, 0.05);
+    background: rgba(4, 4, 20, 0.15);
     z-index: 1000;
     border-radius: 0rem 0rem 0.5rem 0.5rem;
 }
@@ -62,7 +62,7 @@ nav .sign-up{
     display: none;
     position: relative;
     top: 0.5rem;
-    left:15px;
+    left:20px;
     cursor: pointer;
 }
 
@@ -193,7 +193,7 @@ nav{
     line-height: 1.5;
 }
 .show-case-image-container{
-    margin-top: -8rem;
+    margin-top: -7rem;
 }
 .show-img{
     position: relative;
