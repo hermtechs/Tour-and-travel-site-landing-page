@@ -6,6 +6,9 @@
     padding: 0;
     font-family: "Poppins", sans-serif;;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     position: relative;
 }
@@ -49,6 +52,7 @@ nav a{
     left: 2rem;
     transition: 200ms ease-in-out;
     transform: scale(0);
+    transform-origin: left;
 }
 .nav-links a:hover:before{
     transform: scale(1);
@@ -193,9 +197,6 @@ nav{
 .show-case-text >*+*{
     margin-bottom: 2rem;
 }
-.txt-lg{
-    font-size: clamp(2.5rem, 1.5vw, 3rem); 
-}
 .txt-md{
     font-size: 1.2rem;
     font-weight: 400;
@@ -213,6 +214,8 @@ nav{
 .txt-lg{
     margin-top: 1rem;
     line-height: 1.5;
+    font-size: clamp(3rem, 1.5vw, 2.5rem); 
+    color: #555;
 }
 .show-case-image-container{
     margin-top: -7rem;
@@ -269,9 +272,7 @@ nav{
     font-size: .6rem;
     cursor: pointer;
 }
-.txt-lg{
-    color: #555;
-}
+
 .search-icon{
     background: #242ad4;
     border-radius: 50%;
@@ -673,7 +674,7 @@ padding-top: 1rem;
   }
   .get-started-content{
       background:rgba(255, 192, 203, 0.5);
-      padding: 4rem 2rem 4rem 2rem;
+      padding: 4rem 1.5rem 4rem 1.5rem;
       max-width: 80%;
       margin: auto;
       border-radius: 1.4rem;
