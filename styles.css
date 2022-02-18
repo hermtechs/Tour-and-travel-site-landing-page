@@ -214,11 +214,11 @@ nav{
 .txt-lg{
     margin-top: 1rem;
     line-height: 1.5;
-    font-size: clamp(3rem, 1.5vw, 2.5rem); 
+    font-size: 2.5rem; 
     color: #555;
 }
 .show-case-image-container{
-    margin-top: -7rem;
+    margin-top: -6rem;
 }
 .show-img{
     position: relative;
