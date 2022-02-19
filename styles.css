@@ -205,6 +205,9 @@ nav{
     font-size: 1.2rem;
     font-weight: 400;
 }
+.hero-section .txt-md{
+    font-size: 1.1rem;
+}
 
 .explore{
     background: rgba(255, 193, 204,0.4);
@@ -218,7 +221,7 @@ nav{
 .txt-lg{
     margin-top: 1rem;
     line-height: 1.5;
-    font-size: clamp(1.8rem, 10vw, 2.5rem) ;
+    font-size: 2rem;
     color: #555;
 }
 .show-case-image-container{
