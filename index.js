@@ -11,7 +11,15 @@ navBtn.addEventListener('click', hamburgerOpenandClose)
 function hamburgerOpenandClose(){
   if(navBtn.classList.contains('hamburger-open')==false){
     navBtn.classList.add('hamburger-open');
+
     smallScreenNav.style.transform = 'translateX(0%)'
+    
+    document.addEventListener('keydown', (event)=>{
+      if(event.key==='Escape'){
+    hamburgerOpenandClose();
+      }
+
+    })
   }
   else{
   navBtn.classList.remove('hamburger-open');
