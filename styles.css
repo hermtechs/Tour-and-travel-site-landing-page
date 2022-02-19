@@ -74,7 +74,7 @@ nav .sign-up{
     position: fixed;
     width: 100%;
     margin-top: -15px;
-    background: rgba(4, 4, 20, 0.15);
+    background: rgba(4, 4, 20, 0.2);
     z-index: 1000;
     border-radius: 0rem 0rem 0.5rem 0.5rem;
 }

@@ -32,7 +32,7 @@ console.log(elementSize)
 //FINDING TOTAL WIDTH COVERED BY PLACE ELEMENTS 
 var totalClientWidth = 0
 const totalElementsClientWidth = destinations.forEach((destination)=>{
-totalClientWidth = totalClientWidth + destination.clientWidth;
+totalClientWidth = totalClientWidth + destination.clientWidth ;
 })
 console.log(totalClientWidth);
 
