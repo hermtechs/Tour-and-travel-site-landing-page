@@ -116,13 +116,14 @@ nav .sign-up{
     justify-content: space-evenly;
     transition: 250ms ease-in;
     transform: translateX(-100%);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .nav-links-small-screen a{
     color: #fff;
 }
 .nav-links-small-screen a:hover{
     color: blue;
+    top: 1%;
     transition: 250ms ease-in;
 }
 
