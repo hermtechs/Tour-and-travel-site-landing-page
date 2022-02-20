@@ -46,7 +46,7 @@ nav a{
     display: inline-block;
     height: 3px;
     width: 2.2rem;
-    background: #7a7eec;
+    background: #3035d8;
     position: relative;
     top: 0.5rem;
     left: 2rem;
@@ -74,9 +74,10 @@ nav .sign-up{
     position: fixed;
     width: 100%;
     margin-top: -15px;
-    background: rgba(4, 4, 20, 0.2);
+    /* background: rgba(4, 4, 20, 0.1); */
     z-index: 1000;
-    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    border-radius: 0rem 0rem 0.3rem 0.3rem;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.2);
 }
 @media(min-width:890px) {
     .header-top{
@@ -95,7 +96,7 @@ nav .sign-up{
 .nav-toggle span{
     height:2px;
     width:28px;
-    background: #070a5c;
+    background: #2026d8;
     margin-bottom:5px ;
     display: block;
 }
